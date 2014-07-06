@@ -39,12 +39,29 @@ Boston, MA  02110-1301, USA.
 
 ##Installation
 
-1. Copy the datepicker directory into your modules directory. i.e.: @code
-modules/datepicker
-@endcode
-2. Add the following to the [_modules] section of your app's conf.ini @code
+1. Copy the datepicker directory into your modules directory. i.e.: `modules/datepicker`
+2. Add the following to the `[_modules]` section of your app's conf.ini
+
+~~~
 modules_datepicker=modules/datepicker/datepicker.php
-@endcode
+~~~
+
+###Installing using git
+
+~~~
+$ cd /path/to/myapp
+$ mkdir modules
+$ cd modules
+$ git clone https://github.com/shannah/xataface-module-datepicker.git datepicker
+~~~
+
+Then add 
+
+~~~
+modules_datepicker=modules/datepicker/datepicker.php
+~~~
+
+to the `[_modules]` section of your `conf.ini` file.
 
 See the [Xataface modules wiki page](http://xataface.com/wiki/modules) For more information about Xataface module development and installation.
 
