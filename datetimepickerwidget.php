@@ -117,8 +117,8 @@ class Dataface_FormTool_datetimepicker {
             'show24HourClock' => 'bool', //false, //True to display an analog clock to pick time and hour
             'minuteStart' => 'int', //0,
             'minuteEnd' => 'int', //59,
-            'minuteInterval' => 'int' //15
-		
+            'minuteInterval' => 'int', //15
+			'firstDay' => 'int'
 		);
 		
 		

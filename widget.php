@@ -108,8 +108,8 @@ class Dataface_FormTool_datepicker {
             'altFormat' => 'string', //'', // The date format to use for the alternate field
             'constrainInput' => 'bool', //false, // The input is constrained by the current date format
             'showButtonPanel' => 'bool', //false, // True to show button panel, false to not show it
-            'autoSize' => 'bool' //false, // True to size the input for the date format, false to leave as is
-
+            'autoSize' => 'bool', //false, // True to size the input for the date format, false to leave as is
+			'firstDay' => 'int'
 		
 		);
 		
