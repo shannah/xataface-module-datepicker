@@ -100,7 +100,7 @@ Then your field will use the @c datetimepicker widget.
 
 
 ##fields.ini options:
-* widget:dateFormat - The date format.  E.g. "yy/mm/dd".  [Format options](http://api.jqueryui.com/datepicker/#utility-formatDate)
+* widget:format - The date format.  E.g. "yy/mm/dd".  [Format options](http://api.jqueryui.com/datepicker/#utility-formatDate)
 * widget:showOn  - Indicates when to show.  Default is 'focus',  Setting to 'button' will show when a trigger button is clicked.  
 * widget:showAnim - Name of the jQuery animation to show for popup.  Default is 'show'. Some options include "fade", "slide", "slideDown", "slideUp", "show", "fadeIn", "fadeOut".
 * widget:showOptions - Options for enhanced animations.  This should be a javascript expression resolving to an object that can be passed into the appropriate animation function.  For an example of options, see the appropriate animation page on the jQuery website.  E.g. the [fadeIn docs](http://api.jquery.com/fadeIn/).
