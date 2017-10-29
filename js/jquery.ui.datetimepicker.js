@@ -740,7 +740,7 @@
 					    width: inst.dpDiv.outerWidth(), height: inst.dpDiv.outerHeight()
 					});
                 };
-                inst.dpDiv.zIndex($(input).zIndex() + 1);
+                inst.dpDiv.css( "zIndex", $(input).css( "zIndex")+1 );
 
                 if ($.effects && $.effects[showAnim])
                     inst.dpDiv.show(showAnim, $.datetimepicker._get(inst, 'showOptions'), duration, postProcess);
